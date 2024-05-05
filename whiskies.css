@@ -1,0 +1,15 @@
+.image img {
+    max-height: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+/* Estilo para las imágenes dentro de la tabla */
+table[name="mitabla"] img {
+    transition: transform 0.3s ease; /* Transición suave */
+  }
+  
+  /* Aumentar el tamaño de la imagen en un 15% al pasar el cursor */
+  table[name="mitabla"] img:hover {
+    transform: scale(1.15); /* Aumenta el tamaño de la imagen en un 15% */
+  }
+  

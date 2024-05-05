@@ -1,0 +1,43 @@
+
+div{
+    color : white
+}
+
+ol li{
+    float: left;
+    list-style: none;
+    color: white;
+    margin: 55px; 
+}
+tabla{
+    color:black
+}
+
+
+/* Estilo para todas las imágenes dentro de la tabla */
+table[name="mitabla"] img {
+    transition: transform 0.3s ease; /* Transición suave */
+  }
+  
+  /* Aumentar el tamaño de la imagen en un 25% al pasar el cursor */
+  table[name="mitabla"] img:hover {
+    transform: scale(1.25); /* Aumenta el tamaño de la imagen en un 25% */
+  }
+  
+  /* Estilo para los encabezados de la tabla */
+  table[name="mitabla"] th {
+    padding: 10px;
+    background-color: #5D6D7E;
+  }
+  
+  /* Estilo para los celdas de la tabla */
+  table[name="mitabla"] td {
+    padding: 10px;
+  }
+  
+  /* Estilo para los enlaces */
+  table[name="mitabla"] a {
+    text-decoration: none;
+    color: white;
+  }
+  
